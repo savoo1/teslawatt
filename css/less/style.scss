@@ -9,6 +9,10 @@
   font-family: "MontExtraLight";
   src: url("../fonts/MontExtraLight.otf");
 }
+@font-face {
+  font-family: "MontBold";
+  src: url("../fonts/MontBold.otf");
+}
 // fonts end
 
 
@@ -57,7 +61,7 @@ img{
 	    padding-top: 12px;
 	    padding-bottom: 10px;
 		p{
-			font-family: 'MontExtraLight';
+			font-family: 'MontBold';
 			font-style: normal;
 			font-weight: 700;
 			font-size: 13px;
@@ -86,9 +90,12 @@ img{
 	position: relative;
 	z-index: 100;
 	padding-top: 19px;
-	padding-bottom: 14px;
+	padding-bottom: 18px;
 	.wrapper{
 		position: relative;
+		.logo{
+			display: block;
+		}
 		ul{
 			padding: 0;
 			margin: 0;
@@ -103,7 +110,7 @@ img{
 				margin-left: 10px;
 				margin-left: 35px;
 				a{
-					font-family: 'MontHeavy';
+					font-family: 'MontBold';
 					font-style: normal;
 					font-weight: 500;
 					font-size: 14px;
@@ -146,6 +153,7 @@ img{
 			.active{
 				a{
 					color: #A31E22;
+					font-family: MontHeavy;
 				}
 			}
 		}

@@ -5,6 +5,9 @@
 @font-face {
   font-family: "MontExtraLight";
   src: url("../fonts/MontExtraLight.otf"); }
+@font-face {
+  font-family: "MontBold";
+  src: url("../fonts/MontBold.otf"); }
 body {
   padding: 0;
   margin: 0;
@@ -45,7 +48,7 @@ img {
     padding-top: 12px;
     padding-bottom: 10px; }
     .top_values .cont p {
-      font-family: 'MontExtraLight';
+      font-family: 'MontBold';
       font-style: normal;
       font-weight: 700;
       font-size: 13px;
@@ -68,9 +71,11 @@ img {
   position: relative;
   z-index: 100;
   padding-top: 19px;
-  padding-bottom: 14px; }
+  padding-bottom: 18px; }
   .navbar .wrapper {
     position: relative; }
+    .navbar .wrapper .logo {
+      display: block; }
     .navbar .wrapper ul {
       padding: 0;
       margin: 0;
@@ -84,7 +89,7 @@ img {
         margin-left: 10px;
         margin-left: 35px; }
         .navbar .wrapper ul li a {
-          font-family: 'MontHeavy';
+          font-family: 'MontBold';
           font-style: normal;
           font-weight: 500;
           font-size: 14px;
@@ -119,7 +124,8 @@ img {
           background: #fff;
           color: #A31E22; }
       .navbar .wrapper ul .active a {
-        color: #A31E22; }
+        color: #A31E22;
+        font-family: MontHeavy; }
 
 .home_hero {
   min-height: 644px;
