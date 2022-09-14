@@ -2,6 +2,27 @@
 	.wrapper{
 		max-width: 1000px;
 	}
+	.home_hero p{
+		max-width: calc(100% - 60px);
+	}
+	.our_offer .custom_rows .custom_col h2{
+		font-size: 19px;
+		line-height: 27px;
+	}
+	.our_offer .custom_rows .custom_col img{
+		margin-right: 18px;
+	}
+	.latest_updates .blog_posts .post img{
+		max-width: 180px;
+	}
+	.latest_updates .blog_posts .post .cont h2{
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.latest_updates .blog_posts .post img{
+		height: 283px;
+		object-position: center center;
+	}
 }
 
 @media(max-width: 1000px){
@@ -126,4 +147,31 @@
 			}
 		}
 	}
+	body{
+		padding-top: 132px;
+	}
+	.home_hero{
+		padding-top: 100px;
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

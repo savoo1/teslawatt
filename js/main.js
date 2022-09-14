@@ -8,7 +8,7 @@ $(".navbar .lines").click(function (e) {
 });
 
 $(document).scroll(function() {
-  if ($(document).scrollTop() > 100) {
+  if ($(document).scrollTop() > 150) {
       $(".navbar").addClass("nav_for_scroll");
       $(".top_values").addClass("top_values_for_scroll");
   }else{

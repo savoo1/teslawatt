@@ -9,6 +9,9 @@
 @font-face {
   font-family: "MontBold";
   src: url("../fonts/MontBold.otf"); }
+@font-face {
+  font-family: "MontRegular";
+  src: url("../fonts/MontRegular.otf"); }
 body {
   padding: 0;
   margin: 0;
@@ -325,7 +328,7 @@ body {
       .our_offer .custom_rows .custom_col img {
         margin-right: 27px; }
   .our_offer p {
-    font-family: 'MontBold';
+    font-family: 'MontRegular';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -369,7 +372,7 @@ body {
       .latest_updates .blog_posts .post .cont {
         padding: 18px 26px; }
         .latest_updates .blog_posts .post .cont h3 {
-          font-family: 'MontBold';
+          font-family: 'MontRegular';
           font-style: normal;
           font-size: 12px;
           line-height: 28px;
@@ -384,7 +387,7 @@ body {
           -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale; }
         .latest_updates .blog_posts .post .cont p {
-          font-family: 'MontBold';
+          font-family: 'MontRegular';
           font-style: normal;
           font-size: 18px;
           line-height: 25px;
@@ -512,7 +515,7 @@ body {
     .testimonial .slider_area p {
       max-width: 595px;
       margin: auto;
-      font-family: 'MontBold';
+      font-family: 'MontRegular';
       font-style: normal;
       font-weight: 700;
       font-size: 18px;
@@ -601,7 +604,7 @@ body {
         margin-top: 30px;
         padding: 0 20px; }
       .where_we_are .locations .location p {
-        font-family: 'MontBold';
+        font-family: 'MontRegular';
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
@@ -636,7 +639,8 @@ body {
 
 .contact_us {
   background: #fff;
-  padding-top: 60px; }
+  padding-top: 60px;
+  padding-bottom: 53px; }
   .contact_us h1 {
     font-family: 'MontBold';
     font-style: normal;
@@ -645,5 +649,150 @@ body {
     line-height: 50px;
     text-align: center;
     color: #1E1E25; }
+  .contact_us form {
+    margin: auto;
+    display: block;
+    max-width: 1017px;
+    margin-top: 47px; }
+    .contact_us form input {
+      background: #FFFFFF;
+      border: 1px solid #D0D0D0;
+      border-radius: 5px;
+      font-family: 'MontRegular';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: black;
+      padding: 10px 16px;
+      width: 100%;
+      margin-bottom: 27px; }
+    .contact_us form textarea {
+      background: #FFFFFF;
+      border: 1px solid #D0D0D0;
+      border-radius: 5px;
+      font-family: 'MontRegular';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: black;
+      padding: 15px 16px;
+      width: 100%;
+      margin-bottom: 27px;
+      min-height: 170px;
+      max-width: 100%;
+      min-width: 100%; }
+    .contact_us form *::placeholder {
+      color: rgba(0, 0, 0, 0.46); }
+    .contact_us form input:focus, .contact_us form textarea:focus {
+      border-color: #A31E22;
+      outline: none; }
+    .contact_us form .tworows {
+      display: flex;
+      justify-content: space-between; }
+      .contact_us form .tworows div {
+        width: calc(50% - 15px); }
+    .contact_us form .button {
+      text-align: center;
+      margin-top: 10px; }
+      .contact_us form .button button {
+        font-family: 'MontHeavy';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff;
+        background: #A31E22;
+        border: 2px solid #A31E22;
+        border-radius: 50px;
+        padding: 15px 30px;
+        text-decoration: none;
+        display: inline-block;
+        -webkit-transition: all .25s ease;
+        -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+        -o-transition: all .25s ease;
+        transition: all .25s ease; }
+      .contact_us form .button button:hover {
+        background: #fff;
+        color: #A31E22; }
+
+footer {
+  background: #1E1E25;
+  padding-top: 82px;
+  padding-bottom: 48px; }
+  footer .custom_row {
+    display: flex;
+    justify-content: space-between; }
+    footer .custom_row .col h2 {
+      font-family: 'MontBold';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 21px;
+      line-height: 26px;
+      color: #FFFFFF;
+      margin-bottom: 27px; }
+    footer .custom_row .col ul {
+      padding: 0;
+      margin: 0;
+      list-style-type: none; }
+      footer .custom_row .col ul li {
+        display: block;
+        margin-bottom: 14px;
+        font-family: 'MontRegular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;
+        color: rgba(255, 255, 255, 0.56);
+        text-decoration: none; }
+        footer .custom_row .col ul li a {
+          display: inline-block;
+          font-family: 'MontRegular';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 26px;
+          color: rgba(255, 255, 255, 0.56);
+          text-decoration: none;
+          -webkit-transition: all .25s ease;
+          -moz-transition: all .25s ease;
+          -ms-transition: all .25s ease;
+          -o-transition: all .25s ease;
+          transition: all .25s ease; }
+          footer .custom_row .col ul li a svg .fill {
+            fill: #fff;
+            -webkit-transition: all .25s ease;
+            -moz-transition: all .25s ease;
+            -ms-transition: all .25s ease;
+            -o-transition: all .25s ease;
+            transition: all .25s ease; }
+        footer .custom_row .col ul li a:hover {
+          color: #A31E22; }
+          footer .custom_row .col ul li a:hover svg .fill {
+            fill: #A31E22; }
+      footer .custom_row .col ul li:last-child {
+        margin-bottom: 0; }
+    footer .custom_row .col .credit_cards {
+      display: block;
+      margin-top: -7px;
+      margin-bottom: 32px; }
+    footer .custom_row .col:nth-child(2) ul li {
+      margin-bottom: 25px; }
+
+.after_footer {
+  padding: 11px 0;
+  padding-bottom: 65px; }
+  .after_footer p {
+    font-family: 'MontRegular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.56); }
 
 /*# sourceMappingURL=style.css.map */
