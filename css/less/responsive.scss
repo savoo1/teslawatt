@@ -152,11 +152,285 @@
 	}
 	.home_hero{
 		padding-top: 100px;
+		min-height: unset;
+		padding-bottom: 100px;
+	}
+	.home_hero p{
+		font-size: 18px;
+		line-height: 30px;
+		font-family: "MontRegular";
+		margin-top: 20px;
+		max-width: 100%;
+	}
+	.home_hero .wrapper .social_icons{
+		display: none;
+	}
+	.why_teslawatt{
+		padding-top: 76px;
+		padding-bottom: 0;
+	}
+	.our_offer .custom_rows .custom_col h2{
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.our_offer .custom_rows .custom_col{
+		width: calc(50% - 15px);
+		margin-bottom: 50px;
+	}
+	.our_offer{
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+	.latest_updates .blog_posts .post img{
+		height: 283px;
+		max-width: 283px;
+	}
+	.latest_updates .blog_posts{
+		padding-left: 0;
+	}
+	.latest_updates .blog_posts .post{
+		margin-bottom: 34px;
+	}
+	.latest_updates .blog_posts .post:first-child{
+		position: relative;
+		max-width: 100%;
+		margin-bottom: 45px;
+	}
+	.latest_updates .blog_posts .post .cont h2{
+		font-size: 28px;
+		line-height: 37px;
+	}
+	.where_we_are .locations{
+		flex-wrap: wrap;
+		justify-content: space-between;
+		.location:nth-child(2){
+			order: 1;
+			width: 100%;
+			max-width: 100%;
+			margin-bottom: 20px;
+		}
+		.location:nth-child(1){
+			order: 2;
+			border-radius: 20px;
+			max-width: calc(50% - 10px);
+		}
+		.location:nth-child(3){
+			order: 3;
+			border-radius: 20px;
+			max-width: calc(50% - 10px);
+		}
+	}
+	.contact_us form input{
+		margin-bottom: 15px;
+	}
+	.contact_us form .tworows{
+		display: block;
+		div{
+			width: 100%;
+		}
+	}
+	.contact_us, footer{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	footer .custom_row{
+		justify-content: space-between;
+		.col{
+			width: calc(33.33% - 10px);
+		}
+	}
+	footer .custom_row .col .credit_cards {
+	    display: block;
+	    margin-top: -15px;
+	    margin-bottom: 18px;
+	}
+	footer .custom_row .col:nth-child(2) ul li {
+	    margin-bottom: 22px;
+	}
+	footer .custom_row .col:nth-child(2) ul li:last-child{
+		margin-bottom: 0;
+	}
+	footer .custom_row .col h2{
+		font-size: 20px;
 	}
 }
 
 
+@media(max-width: 740px){
+	.wrapper{
+		max-width: 400px;
+	}
+	.top_values .cont{
+		flex-wrap: wrap;
+		padding-top: 10px;
+		padding-bottom: 0;
+		.item{
+			width: calc(33.33% - 5px);
+			margin-bottom: 10px;
+		}
+	}
+	.navbar{
+		top: 88px;
+	}
+	.nav_for_scroll{
+		top: -100px;
+	}
+	.nav_for_scroll_v3{
+		top: 0;
+	}
+	.top_values_for_scroll{
+		display: none;
+	}
+	body{
+		padding-top: 165px;
+	}
+	.home_hero{
+		padding-top: 80px;
+		padding-bottom: 80px;
+		.btn_type1{
+			text-align: center;
+			a{
+				width: 100%;
+			}
+		}
+	}
+	.why_teslawatt{
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+	.regular_title{
+		font-size: 30px;
+		line-height: 38px;
+		br{
+			display: none;
+		}
+	}
+	.why_teslawatt .custom_rows{
+		display: block;
+		.custom_col{
+			width: 100%;
+			margin-bottom: 40px;
+		}
+		.custom_col:last-child{
+			margin-bottom: 0;
+		}
+	}
+	.our_offer h1{
+		font-size: 40px;
+		line-height: 51px;
+	}
+	.our_offer .custom_rows .custom_col{
+		width: calc(50% - 7px);
+		display: block;
+		margin-bottom: 20px;
+		img{
+			display: block;
+			margin: auto;
+			margin-bottom: 20px;
+		}
+		h2{
+			text-align: center;
+			font-size: 18px;
+			line-height: 23px;
+		}
+	}
+	.testimonial, .latest_updates{
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+	.testimonial h1, .latest_updates h1{
+		font-size: 30px;
+		line-height: 38px;
+	}
+	.latest_updates .blog_posts{
+		margin-top: 50px;
+	}
+	.latest_updates .blog_posts .post{
+		display: block;
+		img{
+			width: 100%;
+			max-width: 100%;
+		}
+	}
+	.latest_updates .btn_type1{
+		margin-top: 30px;
+	}
+	.testimonial .slider_area .slick-slide{
+		padding-left: 44px;
+		padding-right: 44px;
+	}
+	.testimonial .slider_area p{
+		font-size: 16px;
+		line-height: 23px;
+		margin-top: 30px;
+	}
+	.testimonial .slider_area .testimonial_icon{
+		max-width: 70px;
+	}
+	.testimonial .slider_area .slick-prev{
+		left: 13px;
+	}
+	.testimonial .slider_area .slick-next{
+		right: 13px;
+	}
+	.home_cta{
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+	.home_cta h1{
+		font-size: 30px;
+		line-height: 40px;
+		font-family: 'MontBold';
+	}
+	.home_cta .btn_type1{
+		margin-top: 30px;
+	}
+	.where_we_are .locations .location:nth-child(1){
+		max-width: 100%;
+		margin-bottom: 20px;
+	}
+	.where_we_are .locations .location:nth-child(3){
+		max-width: 100%;
+	}
+	.where_we_are .locations .location:nth-child(2) p{
+		font-size: 21px;
+		line-height: 140%;
+	}
+	.where_we_are .locations .location:nth-child(2) h2{
+		font-size: 28px;
+		line-height: 140%;
+	}
+	.where_we_are .locations{
+		margin-top: 30px;
+	}
+	.contact_us h1{
+		font-size: 30px;
+		line-height: 32px;
+	}
+	.contact_us form{
+		margin-top: 30px;
+	}
+	footer .custom_row{
+		display: block;
+		.col{
+			width: 100%;
+			text-align: center;
+			margin-bottom: 40px;
+		}
+		.col:last-child{
+			margin-bottom: 0;
+		}
+	}
+	footer .custom_row .col .credit_cards{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+	}
+	.after_footer{
+		padding: 11px 0;
+	}
 
+}
 
 
 
