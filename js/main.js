@@ -2,9 +2,16 @@ $(".navbar .lines").click(function (e) {
     e.preventDefault();
     if($(".navbar").hasClass("navbar_active")){
         $(".navbar").removeClass("navbar_active");
+        $("body").removeClass("disable_scroll");
     }else{
         $(".navbar").addClass("navbar_active");
+        $("body").addClass("disable_scroll");
     }
+});
+$(".navbar .overlapcontent").click(function (e) {
+    e.preventDefault();
+    $(".navbar").removeClass("navbar_active");
+    $("body").removeClass("disable_scroll");
 });
 
 $(document).scroll(function() {

@@ -1,0 +1,42 @@
+/*
+Error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 4 spaces.
+        on line 18 of /Users/savo/Desktop/teslawatt/js/main.js
+
+13:     $(".navbar").removeClass("navbar_active");
+14:         $("body").removeClass("disable_scroll");
+15: });
+16: 
+17: $(document).scroll(function() {
+18:   if ($(document).scrollTop() > 150) {
+19:       $(".navbar").addClass("nav_for_scroll");
+20:       $(".top_values").addClass("top_values_for_scroll");
+21:   }else{
+22:       $(".navbar").removeClass("nav_for_scroll");
+23:       $(".top_values").removeClass("top_values_for_scroll");
+
+Backtrace:
+/Users/savo/Desktop/teslawatt/js/main.js:18
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:494:in `block in tabulate'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:452:in `each'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:452:in `each_with_index'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:452:in `tabulate'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:417:in `_to_tree'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:338:in `watch_or_update'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
+/usr/local/bin/sass:23:in `load'
+/usr/local/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 4 spaces.\A         on line 18 of /Users/savo/Desktop/teslawatt/js/main.js\A \A 13:     $(\".navbar\").removeClass(\"navbar_active\");\A 14:         $(\"body\").removeClass(\"disable_scroll\");\A 15: });\A 16: \A 17: $(document).scroll(function() {\A 18:   if ($(document).scrollTop() > 150) {\A 19:       $(\".navbar\").addClass(\"nav_for_scroll\");\A 20:       $(\".top_values\").addClass(\"top_values_for_scroll\");\A 21:   }else{\A 22:       $(\".navbar\").removeClass(\"nav_for_scroll\");\A 23:       $(\".top_values\").removeClass(\"top_values_for_scroll\");"; }

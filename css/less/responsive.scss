@@ -73,6 +73,25 @@
 	    		margin-bottom: 20px;
 	    	}
 	    }
+	    .for_soc_icons{
+	    	display: inline-block;
+	    	width: 225px;
+	    	padding-left: 15px;
+	    }
+	    .social_icons{
+	    	display: flex;
+	    	text-align: left;
+	    	right: unset;
+	    	position: relative;
+	    	margin-top: 30px;
+	    	a{
+	    		display: block;
+	    		margin-right: 7px;
+	    	}
+	    	a:last-child{
+	    		margin-right: 0;
+	    	}
+	    }
 	}
 	.navbar_active .wrapper .formobile{
 		left: 0;
@@ -81,7 +100,7 @@
 		margin-top: 25px !important;
 	}
 	.navbar .wrapper ul .contactus a{
-		max-width: 133px;
+		max-width: 140px;
 	}
 	.navbar{
 		padding: 17px 0;
@@ -253,6 +272,13 @@
 	footer .custom_row .col h2{
 		font-size: 20px;
 	}
+
+	.navbar.nav_for_scroll_v3 .overlapcontent{
+		top: 79px;
+	}
+	.navbar.nav_for_scroll_v3 .formobile{
+		top: 79px;
+	}
 }
 
 
@@ -403,7 +429,7 @@
 	.where_we_are .locations{
 		margin-top: 30px;
 	}
-	.contact_us h1{
+	.our_offer h1, .where_we_are h1, .contact_us h1{
 		font-size: 30px;
 		line-height: 32px;
 	}
@@ -429,11 +455,174 @@
 	.after_footer{
 		padding: 11px 0;
 	}
-
+	.navbar .wrapper .formobile{
+		width: calc(50% - 200px + 225px);
+	}
+	.navbar .overlapcontent{
+		top: 167px;
+	}
+	.navbar .wrapper .formobile{
+		top: 167px;
+	}
+	.navbar.nav_for_scroll_v3 .overlapcontent{
+		top: 79px;
+	}
+	.navbar.nav_for_scroll_v3 .formobile{
+		top: 79px;
+	}
+	.our_offer .custom_rows{
+		margin-top: 30px;
+	}
 }
 
 
-
+@media(max-width: 400px){
+	.top_values .cont p,.top_values .cont h2{
+		font-size: 10px;
+	}
+	.navbar{
+		top: 80px;
+	}
+	.nav_for_scroll{
+		top: -100px;
+	}
+	.nav_for_scroll_v3{
+		top: 0;
+	}
+	.navbar .wrapper .logo{
+		max-width: 180px;
+	}
+	.navbar .lines .line{
+		width: 34px;
+		height: 3px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.navbar .lines .line:nth-child(2){
+		width: 29px;
+	}
+	body{
+		padding-top: 150px;
+	}
+	.navbar .overlapcontent{
+		top: 150px;
+	}
+	.navbar .wrapper .formobile{
+		top: 150px;
+	}
+	.navbar.nav_for_scroll_v3 .overlapcontent{
+		top: 69px;
+	}
+	.navbar.nav_for_scroll_v3 .formobile{
+		top: 69px;
+	}
+	.navbar_active{
+		.lines{
+			.line{
+				background: #D9D9D9;
+				border-radius: 5px;
+				width: 34px !important;
+			}
+			.line:nth-child(1){
+				transform: rotate(45deg);
+			}
+			.line:nth-child(2){
+			    transform: rotate(-45deg);
+			    margin-top: -8px;
+			}
+			.line:nth-child(3){
+			    transform: rotate(-45deg);
+			    margin-top: -8px;
+			}
+		}
+	}
+	.navbar .wrapper .formobile{
+		width: 240px;
+	}
+	.navbar .wrapper .formobile ul{
+		width: 100%;
+	}
+	.navbar .wrapper .formobile .for_soc_icons{
+		width: 100%;
+	}
+	.home_hero h1{
+		font-size: 35px;
+		line-height: 130%;
+	}
+	.btn_type1 a{
+		padding: 15px;
+	}
+	.home_hero{
+		.btn_type1 a{
+			font-size: 14px;
+		}
+	}
+	.our_offer .custom_rows .custom_col h2{
+		font-size: 16px;
+	}
+	.our_offer .custom_rows .custom_col img{
+		margin-bottom: 10px;
+		max-width: 100px;
+	}
+	.latest_updates h1{
+		br{
+			display: none;
+		}
+	}
+	.latest_updates .blog_posts .post:first-child .cont{
+		padding: 18px 26px;
+	}
+	.testimonial .slider_area p{
+		font-size: 14px;
+		line-height: 130%;
+	}
+	.where_we_are .locations .location:nth-child(2) h2{
+		font-size: 22px;
+	}
+	.where_we_are .locations .location:nth-child(2) p{
+		font-size: 18px;
+	}
+	.where_we_are .locations .location h2{
+		font-size: 20px;
+		line-height: 140%;
+	}
+	.where_we_are .locations .location p{
+		font-size: 16px;
+		line-height: 140%;
+	}
+	footer .custom_row .col ul li{
+		font-size: 16px;
+		line-height: 140%;
+		a{
+			font-size: 16px;
+			line-height: 140%;
+		}
+	}
+	footer .custom_row .col .credit_cards{
+		margin-bottom: 25px;
+	}
+	footer .custom_row .col ul li a svg{
+		margin-left: 3px;
+		margin-right: 3px;
+		margin-top: 10px;
+	}
+	.latest_updates .blog_posts .post .cont h2{
+		font-size: 20px;
+		line-height: 140%;
+	}
+	.latest_updates .blog_posts .post .cont p{
+		font-size: 16px;
+		line-height: 140%;
+	}
+	.testimonial .slider_area h2{
+		font-size: 18px;
+		line-height: 140%;
+	}
+	.testimonial .slider_area h3{
+		font-size: 14px;
+		line-height: 140%;
+	}
+}
 
 
 
