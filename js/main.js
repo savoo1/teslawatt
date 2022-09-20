@@ -13,6 +13,40 @@ $(".navbar .overlapcontent").click(function (e) {
     $(".navbar").removeClass("navbar_active");
     $("body").removeClass("disable_scroll");
 });
+$(".faq_card .question").click(function (e) {
+    e.preventDefault();
+
+    if($(this).parent().hasClass("question_opened")){
+      $(this).parent().removeClass("question_opened");
+      $(this).next().css("max-height", "0px")
+    }else{
+      $(".question_opened").find(".answer").css("max-height", "0px");
+      $(".question_opened").removeClass("question_opened");
+      $(this).parent().addClass("question_opened");
+      var heightinside = $(this).next().find(".inside").height() + 50 ;
+      $(this).next().css("max-height", heightinside + "px")
+    }
+});
+
+$(".hosting_faq .custom_row h2").click(function (e) {
+    e.preventDefault();
+
+    var getoption = "." + $(this).attr("name");
+
+    $(this).parent().find(".active").removeClass("active");
+    $(this).addClass("active");
+  
+    $(".active_option").css("max-height", "0px")
+    $(".active_option").removeClass("active_option");
+    
+
+    setTimeout(function() { 
+            var height_of_option = $(getoption).find(".inside_option").height() + 500 ;
+            $(getoption).css("max-height", height_of_option + "px")
+            $(getoption).addClass("active_option");
+        }, 250);
+});
+
 
 $(document).scroll(function() {
   if ($(document).scrollTop() > 150) {
