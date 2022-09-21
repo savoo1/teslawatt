@@ -1319,7 +1319,21 @@ footer {
       font-size: 18px;
       line-height: 30px;
       color: rgba(0, 0, 0, 0.56);
+      padding: 19px 40px;
+      overflow-wrap: break-word; }
+    .firmware_hero_sec3 .custom_row ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
       padding: 19px 40px; }
+      .firmware_hero_sec3 .custom_row ul li {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: rgba(0, 0, 0, 0.56);
+        overflow-wrap: break-word; }
   .firmware_hero_sec3 .downloadbtn a {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;

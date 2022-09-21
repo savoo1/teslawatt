@@ -73,6 +73,37 @@
 		padding-top: 50px;
 		padding-bottom: 50px;
 	}
+	.firmware_hero{
+		min-height: unset;
+		padding-bottom: 93px;
+	}
+	.firmware_hero .custom_row .custom_col:nth-child(2) {
+		width: calc(40% - 5px);
+		margin-right: -20px;
+	}
+	.firmware_hero .custom_row .custom_col:nth-child(1) {
+		width: calc(60% - 5px);
+	}
+	.firmware_hero_sec2 .antminter_box .left{
+		width: 250px;
+	}
+	.firmware_hero_sec2 .antminter_box .left h2{
+		font-size: 23px;
+		line-height: 32px;
+	}
+	.firmware_hero_sec2 .antminter_box .right ul li{
+		font-size: 15px;
+		line-height: 25px;
+	}
+	.firmware_hero_sec2 .antminter_box .right{
+		padding: 20px;
+	}
+	.firmware_hero_sec3 .custom_row p{
+		font-size: 14px;
+	}
+	.firmware_hero_sec3 .custom_row ul li{
+		font-size: 14px;
+	}
 }
 
 @media(max-width: 1000px){
@@ -403,6 +434,79 @@
 		top: 3px;
 		transform: unset;
 	}
+
+
+
+	.firmware_hero .custom_row{
+		display: block;
+	}
+	.firmware_hero .custom_row .custom_col:nth-child(1){
+		width: 100%;
+		margin: 0;
+	}
+	.firmware_hero .custom_row .custom_col:nth-child(2){
+		width: 100%;
+		margin: 0;
+		img{
+			display: block;
+			margin: auto;
+			max-width: 557px;
+			margin-top: 20px;
+		}
+	}
+	.firmware_hero h1{
+		text-align: center;
+	}
+	.firmware_hero h2{
+		text-align: center;
+	}
+	.firmware_hero p{
+		text-align: center;
+	}
+	.firmware_hero{
+		padding-bottom: 30px;
+	}
+	.firmware_hero_sec2 .custom_row{
+		display: block;
+		.left_side, .right_side{
+			width: 100%;
+		}
+	}
+	.firmware_hero_sec2 .antminter_box .right ul li{
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.firmware_hero_sec3 .custom_row{
+		display: block;
+		.custom_col{
+			width: 100%;
+			max-width: 100%;
+		}
+	}
+	.firmware_hero_sec3 .custom_row .custom_col:nth-child(1){
+		max-width: 100%;
+	}
+	.firmware_hero_sec3 .custom_row .custom_col:nth-child(2){
+		max-width: 100%;
+		margin-top: 30px;
+	}
+	.firmware_hero_features, .firmware_hero_sec3{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.firmware_hero_features .custom_row .custom_col{
+		max-width: calc(50% - 10px);
+	}
+	.firmware_hero_our_support{
+		padding-top: 64px;
+		padding-bottom: 64px;
+	}
+	.firmware_hero_our_support .our_support_img {
+	    position: absolute;
+	    left: calc(50% - 410px);
+	    top: 93px;
+	    max-width: 250px;
+	}
 }
 
 
@@ -677,7 +781,7 @@
 		padding: 10px;
 	}
 	.hosting_faq .custom_row{
-		margin-top: 40px;
+		// margin-top: 40px;
 	}
 	.hosting_cta{
 		padding-top: 50px;
@@ -695,6 +799,98 @@
 	}
 	.hosting_faq .custom_row .right_side .faq_card{
 		margin-bottom: 15px;
+	}
+
+
+
+	.firmware_hero{
+		padding-top: 70px;
+	}
+	.firmware_hero h1{
+		font-size: 40px;
+		line-height: 51px;
+	}
+	.firmware_hero h2{
+		margin-top: 30px;
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.firmware_hero p{
+		font-size: 18px;
+		line-height: 25px;
+		margin-top: 15px;
+	}
+	.firmware_hero .custom_row .custom_col:nth-child(2) img{
+		max-width: 100%;
+	}
+	.firmware_hero_sec2 .antminter_box{
+		display: block;
+	}	
+	.firmware_hero_sec2 .antminter_box .left{
+		width: 100%;
+		min-height: 113px;
+	}
+	.firmware_hero_sec2 .antminter_box .right{
+		justify-content: center;
+		ul{
+			li{
+				text-align: center;
+				font-size: 18px;
+				line-height: 30px;
+			}
+		}
+	}
+	.firmware_hero_sec3 .custom_row h2{
+		text-align: center;
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.firmware_hero_sec3 .custom_row p{
+		text-align: center;
+	}
+	.firmware_hero_sec3 .custom_row ul li{
+		text-align: center;
+		line-height: 130%;
+		margin-bottom: 10px;
+	}
+	.firmware_hero_sec3 .custom_row ul li:last-child{
+		margin-bottom: 0;
+	}
+	.firmware_hero_sec3 .custom_row ul,.firmware_hero_sec3 .custom_row p{
+		padding: 15px;
+	}
+
+	.firmware_hero_features h1{
+		font-size: 30px;
+		line-height: 38px;
+	}
+	.firmware_hero_features .custom_row{
+		display: block;
+		.custom_col{
+			width: 100%;
+			max-width: 100%;
+		}
+		.custom_col:nth-child(2){
+			margin-top: 40px;
+		}
+	}
+	.firmware_hero_features .custom_row h2{
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+	.firmware_hero_our_support h1{
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.firmware_hero_our_support{
+		padding-bottom: 150px;
+		padding-top: 50px;
+	}
+	.firmware_hero_our_support .our_support_img {
+	    left: calc(50% - 180px);
+	    bottom: 23px;
+	    top: unset;
+	    max-width: 250px;
 	}
 }
 
