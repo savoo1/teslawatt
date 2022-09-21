@@ -1189,4 +1189,235 @@ footer {
       background: #fff;
       color: #A31E22; }
 
+.firmware_hero {
+  min-height: 642px;
+  background: url("../img/hero_bg.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 93px; }
+  .firmware_hero .custom_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .firmware_hero .custom_row .custom_col:nth-child(1) {
+      width: calc(50% + 10px); }
+    .firmware_hero .custom_row .custom_col:nth-child(2) {
+      width: calc(50% + 5px);
+      margin-right: -28px; }
+  .firmware_hero h1 {
+    font-family: 'MontHeavy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 64px;
+    text-align: left;
+    color: #A31E22; }
+  .firmware_hero h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.56); }
+  .firmware_hero p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.56);
+    margin-top: 17px;
+    text-align: left; }
+
+.firmware_hero_sec2 {
+  padding-top: 56px;
+  padding-bottom: 32px; }
+  .firmware_hero_sec2 .custom_row {
+    margin-top: 0; }
+  .firmware_hero_sec2 .antminter_box {
+    border: 2px solid #A31E22;
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden; }
+    .firmware_hero_sec2 .antminter_box .left {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #A31E22;
+      width: 280px;
+      min-height: 153px; }
+      .firmware_hero_sec2 .antminter_box .left h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+        background: transparent;
+        border: 0;
+        margin: 0; }
+    .firmware_hero_sec2 .antminter_box .right {
+      display: flex;
+      align-items: center;
+      padding-left: 30px; }
+      .firmware_hero_sec2 .antminter_box .right ul {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        list-style-type: none; }
+        .firmware_hero_sec2 .antminter_box .right ul li {
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 30px;
+          color: #1E1E25; }
+
+.firmware_hero_sec3 {
+  background: #A31E22;
+  padding-top: 46px;
+  padding-bottom: 21px; }
+  .firmware_hero_sec3 .custom_row {
+    display: flex;
+    justify-content: space-between; }
+    .firmware_hero_sec3 .custom_row .custom_col:nth-child(1) {
+      width: 100%;
+      max-width: 491px; }
+      .firmware_hero_sec3 .custom_row .custom_col:nth-child(1) .box {
+        padding-bottom: 0;
+        margin-bottom: 15px; }
+        .firmware_hero_sec3 .custom_row .custom_col:nth-child(1) .box p {
+          padding: 13px 40px; }
+    .firmware_hero_sec3 .custom_row .custom_col:nth-child(2) {
+      max-width: calc(100% - 522px);
+      width: 100%; }
+    .firmware_hero_sec3 .custom_row .box {
+      background: #FFFFFF;
+      border-radius: 20px;
+      overflow: hidden;
+      padding-bottom: 9px; }
+    .firmware_hero_sec3 .custom_row h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 31px;
+      color: #1E1E25;
+      background: #F4F4F4;
+      border: 1px solid #D9D9D9;
+      border-radius: 20px;
+      padding: 13px 38px; }
+      .firmware_hero_sec3 .custom_row h2 span {
+        color: #A31E22; }
+    .firmware_hero_sec3 .custom_row p {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      color: rgba(0, 0, 0, 0.56);
+      padding: 19px 40px; }
+  .firmware_hero_sec3 .downloadbtn a {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    padding: 14px;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease; }
+  .firmware_hero_sec3 .downloadbtn a:hover {
+    background: #fff;
+    border-color: #fff;
+    color: #A31E22; }
+  .firmware_hero_sec3 .custom_col .sm {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.56);
+    padding: 0px;
+    margin-top: 2px; }
+
+.firmware_hero_features {
+  padding-top: 68px;
+  padding-bottom: 71px; }
+  .firmware_hero_features h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 51px;
+    text-align: center;
+    color: #A31E22;
+    margin: auto;
+    max-width: 570px; }
+  .firmware_hero_features .custom_row {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1167px;
+    margin: auto;
+    margin-top: 40px; }
+    .firmware_hero_features .custom_row .custom_col {
+      max-width: 541px; }
+    .firmware_hero_features .custom_row .placeforimg {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 77px; }
+      .firmware_hero_features .custom_row .placeforimg img {
+        display: block; }
+    .firmware_hero_features .custom_row h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 36px;
+      text-align: center;
+      color: #A31E22;
+      margin-top: 16px;
+      margin-bottom: 18px; }
+    .firmware_hero_features .custom_row p {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.56); }
+
+.firmware_hero_our_support {
+  background: #F4F4F4;
+  padding: 85px 0;
+  position: relative; }
+  .firmware_hero_our_support .our_support_img {
+    position: absolute;
+    left: calc(50% - 720px);
+    top: 23px; }
+  .firmware_hero_our_support h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #1E1E25; }
+    .firmware_hero_our_support h1 span {
+      font-weight: 700; }
+
 /*# sourceMappingURL=style.css.map */
