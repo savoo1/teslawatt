@@ -1586,4 +1586,177 @@ footer {
     text-align: center;
     margin-top: -5px; }
 
+.contact_hero {
+  min-height: 642px;
+  background: url("../img/hero_bg.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 168px; }
+  .contact_hero h1 {
+    font-family: 'MontHeavy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 64px;
+    text-align: center;
+    color: #A31E22;
+    margin: auto;
+    max-width: 800px; }
+  .contact_hero p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.56);
+    margin: auto;
+    max-width: 804px;
+    margin-top: 30px; }
+  .contact_hero .btn_type1 {
+    text-align: center;
+    margin-top: 30px; }
+  .contact_hero .wrapper {
+    position: relative; }
+    .contact_hero .wrapper .social_icons {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 0; }
+      .contact_hero .wrapper .social_icons a {
+        display: block;
+        margin: 10px 0;
+        -webkit-transition: all .25s ease;
+        -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+        -o-transition: all .25s ease;
+        transition: all .25s ease; }
+      .contact_hero .wrapper .social_icons a:hover {
+        opacity: 0.7; }
+
+.contact_sec2 {
+  padding-top: 57px;
+  padding-bottom: 62px; }
+  .contact_sec2 .max_box {
+    max-width: 802px;
+    margin: auto; }
+    .contact_sec2 .max_box .boxes {
+      display: flex;
+      justify-content: space-between; }
+      .contact_sec2 .max_box .boxes .box {
+        background: #A31E22;
+        border-radius: 20px;
+        min-height: 173px;
+        width: calc(33.33% - 10px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px; }
+        .contact_sec2 .max_box .boxes .box .place_for_icon {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          min-height: 60px;
+          margin-bottom: 21px; }
+        .contact_sec2 .max_box .boxes .box p {
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 25px;
+          text-align: center;
+          color: #FFFFFF; }
+    .contact_sec2 .max_box form {
+      margin-top: 43px; }
+      .contact_sec2 .max_box form p {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: rgba(0, 0, 0, 0.56); }
+      .contact_sec2 .max_box form .custom_row {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap; }
+        .contact_sec2 .max_box form .custom_row .custom_col {
+          width: calc(50% - 10px); }
+      .contact_sec2 .max_box form input {
+        background: #F5F5F5;
+        border-radius: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: black;
+        border: 0;
+        width: 100%;
+        margin-top: 3px;
+        padding: 11px 20px;
+        margin-bottom: 14px; }
+      .contact_sec2 .max_box form textarea {
+        background: #F5F5F5;
+        border-radius: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: black;
+        border: 0;
+        width: 100%;
+        margin-top: 3px;
+        padding: 11px 20px;
+        margin-bottom: 14px;
+        min-height: 187px;
+        max-width: 100%;
+        min-width: 100%; }
+      .contact_sec2 .max_box form *:focus {
+        outline: none; }
+      .contact_sec2 .max_box form .c_btn {
+        text-align: center;
+        margin-top: 13px; }
+        .contact_sec2 .max_box form .c_btn button {
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 800;
+          font-size: 16px;
+          line-height: 20px;
+          text-align: center;
+          text-transform: uppercase;
+          color: #A31E22;
+          border: 2px solid #A31E22;
+          border-radius: 50px;
+          padding: 15px 30px;
+          text-decoration: none;
+          display: inline-block;
+          min-width: 175px;
+          position: relative;
+          background: #fff;
+          -webkit-transition: all .25s ease;
+          -moz-transition: all .25s ease;
+          -ms-transition: all .25s ease;
+          -o-transition: all .25s ease;
+          transition: all .25s ease; }
+          .contact_sec2 .max_box form .c_btn button svg {
+            position: absolute;
+            right: 13px;
+            top: 50%;
+            transform: translateY(-50%); }
+            .contact_sec2 .max_box form .c_btn button svg .fill {
+              fill: #A31E22;
+              -webkit-transition: all .25s ease;
+              -moz-transition: all .25s ease;
+              -ms-transition: all .25s ease;
+              -o-transition: all .25s ease;
+              transition: all .25s ease; }
+        .contact_sec2 .max_box form .c_btn button:hover {
+          background: #A31E22;
+          color: #fff; }
+          .contact_sec2 .max_box form .c_btn button:hover svg .fill {
+            fill: #fff; }
+
 /*# sourceMappingURL=style.css.map */

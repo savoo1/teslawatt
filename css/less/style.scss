@@ -1942,3 +1942,235 @@ footer{
 
 
 
+// contact_hero
+.contact_hero{
+	min-height: 642px;
+	background: url("../img/hero_bg.png") no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 168px;
+	h1{
+		font-family: 'MontHeavy';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 50px;
+		line-height: 64px;
+		text-align: center;
+		color: #A31E22;
+		margin: auto;
+		max-width: 800px;
+	}
+	p{
+		font-family: 'Montserrat', sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 25px;
+		text-align: center;
+		color: rgba(0, 0, 0, 0.56);
+		margin: auto;
+		max-width: 804px;
+		margin-top: 30px;
+	}
+	.btn_type1{
+		text-align: center;
+		margin-top: 30px;
+	}
+	.wrapper{
+		position: relative;
+		.social_icons{
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			right: 0;
+			a{
+				display: block;
+				margin: 10px 0;
+				-webkit-transition: all .25s ease;
+				   -moz-transition: all .25s ease;
+				    -ms-transition: all .25s ease;
+				     -o-transition: all .25s ease;
+				        transition: all .25s ease;
+			}
+			a:hover{
+				opacity: 0.7;
+			}
+		}
+	}
+}
+// contact_hero end
+
+// contact_sec2
+.contact_sec2{
+	padding-top: 57px;
+	padding-bottom: 62px;
+	.max_box{
+		max-width: 802px;
+		margin: auto;
+		.boxes{
+			display: flex;
+			justify-content: space-between;
+			.box{
+				background: #A31E22;
+				border-radius: 20px;
+				min-height: 173px;
+				width: calc(33.33% - 10px);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding: 10px;
+				.place_for_icon{
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					min-height: 60px;
+					margin-bottom: 21px;
+				}
+				p{
+					font-family: 'Montserrat', sans-serif;
+					font-style: normal;
+					font-weight: 500;
+					font-size: 18px;
+					line-height: 25px;
+					text-align: center;
+					color: #FFFFFF;
+				}
+			}
+		}
+		form{
+			margin-top: 43px;
+			p{
+				font-family: 'Montserrat', sans-serif;
+				font-style: normal;
+				font-weight: 400;
+				font-size: 18px;
+				line-height: 28px;
+				color: rgba(0, 0, 0, 0.56);
+			}
+			.custom_row{
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				.custom_col{
+					width: calc(50% - 10px);
+				}
+			}
+			input{
+				background: #F5F5F5;
+		    border-radius: 20px;
+		    font-family: 'Montserrat', sans-serif;
+		    font-style: normal;
+		    font-weight: 400;
+		    font-size: 18px;
+		    line-height: 28px;
+		    color: black;
+		    border: 0;
+		    width: 100%;
+		    margin-top: 3px;
+		    padding: 11px 20px;
+		    margin-bottom: 14px;
+			}
+			textarea{
+				background: #F5F5F5;
+		    border-radius: 20px;
+		    font-family: 'Montserrat', sans-serif;
+		    font-style: normal;
+		    font-weight: 400;
+		    font-size: 18px;
+		    line-height: 28px;
+		    color: black;
+		    border: 0;
+		    width: 100%;
+		    margin-top: 3px;
+		    padding: 11px 20px;
+		    margin-bottom: 14px;
+		    min-height: 187px;
+		    max-width: 100%;
+		    min-width: 100%;
+			}
+
+			*:focus{
+				outline: none;
+			}
+
+			.c_btn{
+				text-align: center;
+				margin-top: 13px;
+				button{
+					font-family: 'Montserrat', sans-serif;
+					font-style: normal;
+					font-weight: 800;
+					font-size: 16px;
+					line-height: 20px;
+					text-align: center;
+					text-transform: uppercase;
+					color: #A31E22;
+					border: 2px solid #A31E22;
+					border-radius: 50px;
+					padding: 15px 30px;
+					text-decoration: none;
+					display: inline-block;
+					min-width: 175px;
+					position: relative;
+					background: #fff;
+
+					svg{
+						position: absolute;
+						right: 13px;
+						top: 50%;
+						transform:translateY(-50%);
+						.fill{
+							fill: #A31E22;
+							-webkit-transition: all .25s ease;
+							   -moz-transition: all .25s ease;
+							    -ms-transition: all .25s ease;
+							     -o-transition: all .25s ease;
+							        transition: all .25s ease;
+						}
+					}
+					-webkit-transition: all .25s ease;
+					   -moz-transition: all .25s ease;
+					    -ms-transition: all .25s ease;
+					     -o-transition: all .25s ease;
+					        transition: all .25s ease;
+				}
+				button:hover{
+					background: #A31E22;
+					color: #fff;
+					svg{
+						.fill{
+								fill: #fff;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+// contact_sec2 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
