@@ -276,6 +276,7 @@ body{
 	-o-background-size: cover;
 	background-size: cover;
 	padding-top: 142px;
+	overflow: hidden;
 	h1{
 		font-family: 'MontHeavy';
 		font-style: normal;
@@ -322,6 +323,7 @@ body{
 	background: #A31E22;
 	padding-top: 84px;
 	padding-bottom: 26px;
+	overflow: hidden;
 	.custom_rows{
 		display: flex;
 		justify-content: space-between;
@@ -366,6 +368,7 @@ body{
 	background-size: cover;
 	padding-top: 80px;
 	padding-bottom: 80px;
+	overflow: hidden;
 	h1{
 		font-family: 'MontBold';
 		font-style: normal;
@@ -420,6 +423,7 @@ body{
 	background: #F4F4F4;
 	padding-top: 76px;
 	padding-bottom: 57px;
+	overflow: hidden;
 	h1{
 		font-family: 'MontBold';
 		font-style: normal;
@@ -564,6 +568,7 @@ body{
 	background: #fff;
 	padding-top: 68px;
 	padding-bottom: 60px;
+	overflow: hidden;
 	h1{
 		font-family: 'MontBold';
 		font-style: normal;
@@ -666,6 +671,7 @@ body{
 	background: #A31E22;
 	padding-top: 82px;
 	padding-bottom: 61px;
+	overflow: hidden;
 	h1{
 		font-family: 'MontBold';
 		font-style: normal;
@@ -693,6 +699,7 @@ body{
 	background: #F4F4F4;
 	padding-bottom: 54px;
 	padding-top: 61px;
+	overflow: hidden;
 	h1{
 		font-family: 'MontBold';
 		font-style: normal;
@@ -779,6 +786,7 @@ body{
 	background: #fff;
 	padding-top: 60px;
 	padding-bottom: 53px;
+	overflow: hidden;
 	h1{
 		font-family: 'MontBold';
 		font-style: normal;
@@ -983,6 +991,7 @@ footer{
 		-o-background-size: cover;
 		background-size: cover;
 		padding-top: 168px;
+		overflow: hidden;
 		h1{
 			font-family: 'MontHeavy';
 			font-style: normal;
@@ -1037,6 +1046,7 @@ footer{
 	background: #1E1E25;
 	padding-top: 93px;
 	padding-bottom: 44px;
+	overflow: hidden;
 	.custom_rows{
 		display: flex;
 		flex-wrap: wrap;
@@ -1078,6 +1088,7 @@ footer{
 .hosting_steps_to_start{
 	padding-top: 86px;
 	padding-bottom: 99px;
+	overflow: hidden;
 	h1{
 		font-family: 'Montserrat', sans-serif;
 		font-style: normal;
@@ -1132,6 +1143,7 @@ footer{
 	background: #A31E22;
 	padding-top: 112px;
 	padding-bottom: 69px;
+	overflow: hidden;
 	.our_facialities{
 		display: flex;
 		justify-content: space-between;
@@ -1256,6 +1268,7 @@ footer{
 .hosting_faq{
 	padding-top: 62px;
 	padding-bottom: 44px;
+	overflow: hidden;
 	h1{
 		font-family: 'Montserrat', sans-serif;
 		font-style: normal;
@@ -1420,6 +1433,7 @@ footer{
 	background-size: cover;
 	padding-top: 64px;
 	padding-bottom: 64px;
+	overflow: hidden;
 	h1{
 				font-family: 'Montserrat', sans-serif;
 				font-style: normal;
@@ -1455,6 +1469,7 @@ footer{
 	-o-background-size: cover;
 	background-size: cover;
 	padding-top: 93px;
+	overflow: hidden;
 	.custom_row{
 		display: flex;
 		justify-content: space-between;
@@ -1501,6 +1516,7 @@ footer{
 .firmware_hero_sec2{
 	padding-top: 56px;
 	padding-bottom: 32px;
+	overflow: hidden;
 	.custom_row{
 		margin-top: 0;
 	}
@@ -1559,6 +1575,7 @@ footer{
 	background: #A31E22;
 	padding-top: 46px;
 	padding-bottom: 21px;
+	overflow: hidden;
 	.custom_row{
 		display: flex;
 		justify-content: space-between;
@@ -1672,6 +1689,7 @@ footer{
 .firmware_hero_features{
 		padding-top: 68px;
 		padding-bottom: 71px;
+		overflow: hidden;
 		h1{
 			font-family: 'Montserrat', sans-serif;
 			font-style: normal;
@@ -1731,6 +1749,7 @@ footer{
 	background: #F4F4F4;
 	padding: 85px 0;
 	position: relative;
+	overflow: hidden;
 	.our_support_img{
     position: absolute;
     left: calc(50% - 720px);
@@ -1756,6 +1775,7 @@ footer{
 // blog_post_page
 .blog_post_page{
 	padding-bottom: 50px;
+	overflow: hidden;
 	.blog_posts{
 		position: relative;
 		// margin-top: 62px;
@@ -1951,6 +1971,7 @@ footer{
 	-o-background-size: cover;
 	background-size: cover;
 	padding-top: 168px;
+	overflow: hidden;
 	h1{
 		font-family: 'MontHeavy';
 		font-style: normal;
@@ -2006,6 +2027,7 @@ footer{
 .contact_sec2{
 	padding-top: 57px;
 	padding-bottom: 62px;
+	overflow: hidden;
 	.max_box{
 		max-width: 802px;
 		margin: auto;
@@ -2163,6 +2185,7 @@ footer{
 	-o-background-size: cover;
 	background-size: cover;
 	padding-top: 168px;
+	overflow: hidden;
 	h1{
 		font-family: 'MontHeavy';
 		font-style: normal;
@@ -2217,6 +2240,7 @@ footer{
 
 // aboutus_boxes
 .aboutus_boxes{
+	overflow: hidden;
 	.boxes{
 		h2{
 			font-family: 'Montserrat', sans-serif;

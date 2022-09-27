@@ -229,7 +229,8 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 142px; }
+  padding-top: 142px;
+  overflow: hidden; }
   .home_hero h1 {
     font-family: 'MontHeavy';
     font-style: normal;
@@ -267,7 +268,8 @@ body {
 .why_teslawatt {
   background: #A31E22;
   padding-top: 84px;
-  padding-bottom: 26px; }
+  padding-bottom: 26px;
+  overflow: hidden; }
   .why_teslawatt .custom_rows {
     display: flex;
     justify-content: space-between;
@@ -304,7 +306,8 @@ body {
   -o-background-size: cover;
   background-size: cover;
   padding-top: 80px;
-  padding-bottom: 80px; }
+  padding-bottom: 80px;
+  overflow: hidden; }
   .our_offer h1 {
     font-family: 'MontBold';
     font-style: normal;
@@ -351,7 +354,8 @@ body {
 .latest_updates {
   background: #F4F4F4;
   padding-top: 76px;
-  padding-bottom: 57px; }
+  padding-bottom: 57px;
+  overflow: hidden; }
   .latest_updates h1 {
     font-family: 'MontBold';
     font-style: normal;
@@ -469,7 +473,8 @@ body {
 .testimonial {
   background: #fff;
   padding-top: 68px;
-  padding-bottom: 60px; }
+  padding-bottom: 60px;
+  overflow: hidden; }
   .testimonial h1 {
     font-family: 'MontBold';
     font-style: normal;
@@ -558,7 +563,8 @@ body {
 .home_cta {
   background: #A31E22;
   padding-top: 82px;
-  padding-bottom: 61px; }
+  padding-bottom: 61px;
+  overflow: hidden; }
   .home_cta h1 {
     font-family: 'MontBold';
     font-style: normal;
@@ -580,7 +586,8 @@ body {
 .where_we_are {
   background: #F4F4F4;
   padding-bottom: 54px;
-  padding-top: 61px; }
+  padding-top: 61px;
+  overflow: hidden; }
   .where_we_are h1 {
     font-family: 'MontBold';
     font-style: normal;
@@ -652,7 +659,8 @@ body {
 .contact_us {
   background: #fff;
   padding-top: 60px;
-  padding-bottom: 53px; }
+  padding-bottom: 53px;
+  overflow: hidden; }
   .contact_us h1 {
     font-family: 'MontBold';
     font-style: normal;
@@ -814,7 +822,8 @@ footer {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 168px; }
+  padding-top: 168px;
+  overflow: hidden; }
   .hosting_hero h1 {
     font-family: 'MontHeavy';
     font-style: normal;
@@ -858,7 +867,8 @@ footer {
 .hosting_services {
   background: #1E1E25;
   padding-top: 93px;
-  padding-bottom: 44px; }
+  padding-bottom: 44px;
+  overflow: hidden; }
   .hosting_services .custom_rows {
     display: flex;
     flex-wrap: wrap;
@@ -891,7 +901,8 @@ footer {
 
 .hosting_steps_to_start {
   padding-top: 86px;
-  padding-bottom: 99px; }
+  padding-bottom: 99px;
+  overflow: hidden; }
   .hosting_steps_to_start h1 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -935,7 +946,8 @@ footer {
 .hosting_map {
   background: #A31E22;
   padding-top: 112px;
-  padding-bottom: 69px; }
+  padding-bottom: 69px;
+  overflow: hidden; }
   .hosting_map .our_facialities {
     display: flex;
     justify-content: space-between;
@@ -1035,7 +1047,8 @@ footer {
 
 .hosting_faq {
   padding-top: 62px;
-  padding-bottom: 44px; }
+  padding-bottom: 44px;
+  overflow: hidden; }
   .hosting_faq h1 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -1170,7 +1183,8 @@ footer {
   -o-background-size: cover;
   background-size: cover;
   padding-top: 64px;
-  padding-bottom: 64px; }
+  padding-bottom: 64px;
+  overflow: hidden; }
   .hosting_cta h1 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -1196,7 +1210,8 @@ footer {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 93px; }
+  padding-top: 93px;
+  overflow: hidden; }
   .firmware_hero .custom_row {
     display: flex;
     justify-content: space-between;
@@ -1233,7 +1248,8 @@ footer {
 
 .firmware_hero_sec2 {
   padding-top: 56px;
-  padding-bottom: 32px; }
+  padding-bottom: 32px;
+  overflow: hidden; }
   .firmware_hero_sec2 .custom_row {
     margin-top: 0; }
   .firmware_hero_sec2 .antminter_box {
@@ -1279,7 +1295,8 @@ footer {
 .firmware_hero_sec3 {
   background: #A31E22;
   padding-top: 46px;
-  padding-bottom: 21px; }
+  padding-bottom: 21px;
+  overflow: hidden; }
   .firmware_hero_sec3 .custom_row {
     display: flex;
     justify-content: space-between; }
@@ -1370,7 +1387,8 @@ footer {
 
 .firmware_hero_features {
   padding-top: 68px;
-  padding-bottom: 71px; }
+  padding-bottom: 71px;
+  overflow: hidden; }
   .firmware_hero_features h1 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -1418,7 +1436,8 @@ footer {
 .firmware_hero_our_support {
   background: #F4F4F4;
   padding: 85px 0;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .firmware_hero_our_support .our_support_img {
     position: absolute;
     left: calc(50% - 720px);
@@ -1435,7 +1454,8 @@ footer {
       font-weight: 700; }
 
 .blog_post_page {
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  overflow: hidden; }
   .blog_post_page .blog_posts {
     position: relative;
     display: flex;
@@ -1593,7 +1613,8 @@ footer {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 168px; }
+  padding-top: 168px;
+  overflow: hidden; }
   .contact_hero h1 {
     font-family: 'MontHeavy';
     font-style: normal;
@@ -1638,7 +1659,8 @@ footer {
 
 .contact_sec2 {
   padding-top: 57px;
-  padding-bottom: 62px; }
+  padding-bottom: 62px;
+  overflow: hidden; }
   .contact_sec2 .max_box {
     max-width: 802px;
     margin: auto; }
@@ -1766,7 +1788,8 @@ footer {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 168px; }
+  padding-top: 168px;
+  overflow: hidden; }
   .aboutus_hero h1 {
     font-family: 'MontHeavy';
     font-style: normal;
@@ -1809,66 +1832,68 @@ footer {
       .aboutus_hero .wrapper .social_icons a:hover {
         opacity: 0.7; }
 
-.aboutus_boxes .boxes h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 51px;
-  color: #A31E22;
-  max-width: 595px; }
-.aboutus_boxes .boxes p {
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 30px;
-  color: rgba(0, 0, 0, 0.56);
-  max-width: 529px;
-  margin-top: 25px; }
-.aboutus_boxes .boxes .box {
-  padding-bottom: 83px;
-  padding-top: 83px; }
-.aboutus_boxes .boxes .desc {
-  padding-top: 27px;
-  padding-bottom: 34px;
-  position: relative;
-  max-width: 519px; }
-.aboutus_boxes .boxes .main_img {
-  width: 100%;
-  height: 100%;
-  border-radius: 20px; }
-.aboutus_boxes .boxes .icon {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: -62px;
-  background: #A31E22;
-  border: 10px solid #FFFFFF;
-  width: 124px;
-  height: 124px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 100%; }
-  .aboutus_boxes .boxes .icon img {
-    display: block; }
-.aboutus_boxes .boxes .custom_row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-.aboutus_boxes .boxes .place_for_img {
-  position: relative;
-  max-width: calc(100% - 627px);
-  width: 100%; }
-.aboutus_boxes .boxes .box:nth-child(2n) {
-  background: #F4F4F4; }
-  .aboutus_boxes .boxes .box:nth-child(2n) .desc {
-    order: 2; }
-  .aboutus_boxes .boxes .box:nth-child(2n) .place_for_img {
-    order: 1; }
-    .aboutus_boxes .boxes .box:nth-child(2n) .place_for_img .icon {
-      left: unset;
-      right: -62px; }
+.aboutus_boxes {
+  overflow: hidden; }
+  .aboutus_boxes .boxes h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 51px;
+    color: #A31E22;
+    max-width: 595px; }
+  .aboutus_boxes .boxes p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.56);
+    max-width: 529px;
+    margin-top: 25px; }
+  .aboutus_boxes .boxes .box {
+    padding-bottom: 83px;
+    padding-top: 83px; }
+  .aboutus_boxes .boxes .desc {
+    padding-top: 27px;
+    padding-bottom: 34px;
+    position: relative;
+    max-width: 519px; }
+  .aboutus_boxes .boxes .main_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px; }
+  .aboutus_boxes .boxes .icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -62px;
+    background: #A31E22;
+    border: 10px solid #FFFFFF;
+    width: 124px;
+    height: 124px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%; }
+    .aboutus_boxes .boxes .icon img {
+      display: block; }
+  .aboutus_boxes .boxes .custom_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .aboutus_boxes .boxes .place_for_img {
+    position: relative;
+    max-width: calc(100% - 627px);
+    width: 100%; }
+  .aboutus_boxes .boxes .box:nth-child(2n) {
+    background: #F4F4F4; }
+    .aboutus_boxes .boxes .box:nth-child(2n) .desc {
+      order: 2; }
+    .aboutus_boxes .boxes .box:nth-child(2n) .place_for_img {
+      order: 1; }
+      .aboutus_boxes .boxes .box:nth-child(2n) .place_for_img .icon {
+        left: unset;
+        right: -62px; }
 
 /*# sourceMappingURL=style.css.map */
