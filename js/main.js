@@ -1,3 +1,5 @@
+AOS.init();
+
 $(".navbar .lines").click(function (e) {
     e.preventDefault();
     if($(".navbar").hasClass("navbar_active")){

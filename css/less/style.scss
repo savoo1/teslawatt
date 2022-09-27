@@ -2154,9 +2154,150 @@ footer{
 
 
 
+// aboutus_hero
+.aboutus_hero{
+	min-height: 642px;
+	background: url("../img/hero_bg.png") no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 168px;
+	h1{
+		font-family: 'MontHeavy';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 50px;
+		line-height: 64px;
+		text-align: center;
+		color: #A31E22;
+		margin: auto;
+		max-width: 800px;
+	}
+	p{
+		font-family: 'Montserrat', sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 25px;
+		text-align: center;
+		color: rgba(0, 0, 0, 0.56);
+		margin: auto;
+		max-width: 804px;
+		margin-top: 30px;
+	}
+	.btn_type1{
+		text-align: center;
+		margin-top: 30px;
+	}
+	.wrapper{
+		position: relative;
+		.social_icons{
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			right: 0;
+			a{
+				display: block;
+				margin: 10px 0;
+				-webkit-transition: all .25s ease;
+				   -moz-transition: all .25s ease;
+				    -ms-transition: all .25s ease;
+				     -o-transition: all .25s ease;
+				        transition: all .25s ease;
+			}
+			a:hover{
+				opacity: 0.7;
+			}
+		}
+	}
+}
+// aboutus_hero end
 
 
+// aboutus_boxes
+.aboutus_boxes{
+	.boxes{
+		h2{
+			font-family: 'Montserrat', sans-serif;
+			font-style: normal;
+			font-weight: 700;
+			font-size: 40px;
+			line-height: 51px;
+			color: #A31E22;
+			max-width: 595px;
+		}
+		p{
+			font-family: 'Montserrat', sans-serif;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 30px;
+			color: rgba(0, 0, 0, 0.56);
+			max-width: 529px;
+			margin-top: 25px;
+		}
+		.box{
+			padding-bottom: 83px;
+			padding-top: 83px;
+		}
+		.desc{
+			padding-top: 27px;
+			padding-bottom: 34px;
+			position: relative;
+			max-width: 519px;
+		}
+		.main_img{
+			width: 100%;
+			height: 100%;
+			border-radius: 20px;
+		}
+		.icon{
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			left: -62px;
+			background: #A31E22;
+			border: 10px solid #FFFFFF;
+			width: 124px;
+	    height: 124px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    border-radius: 100%;
+	    // right: calc(100% - 687px);
+			img{
+				display: block;
+			}
+		}
+		.custom_row{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.place_for_img{
+			position: relative;
+	    max-width: calc(100% - 627px);
+	    width: 100%;
+		}
 
+
+		.box:nth-child(2n){
+			background: #F4F4F4;
+			.desc{
+				order: 2;
+			}
+			.place_for_img{
+				order: 1;
+				.icon{
+					left: unset;
+					right: -62px;
+				}
+			}
+		}
+	}
+}
+// aboutus_boxes end
 
 
 

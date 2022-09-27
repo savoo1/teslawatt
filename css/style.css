@@ -1759,4 +1759,116 @@ footer {
           .contact_sec2 .max_box form .c_btn button:hover svg .fill {
             fill: #fff; }
 
+.aboutus_hero {
+  min-height: 642px;
+  background: url("../img/hero_bg.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 168px; }
+  .aboutus_hero h1 {
+    font-family: 'MontHeavy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 64px;
+    text-align: center;
+    color: #A31E22;
+    margin: auto;
+    max-width: 800px; }
+  .aboutus_hero p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.56);
+    margin: auto;
+    max-width: 804px;
+    margin-top: 30px; }
+  .aboutus_hero .btn_type1 {
+    text-align: center;
+    margin-top: 30px; }
+  .aboutus_hero .wrapper {
+    position: relative; }
+    .aboutus_hero .wrapper .social_icons {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 0; }
+      .aboutus_hero .wrapper .social_icons a {
+        display: block;
+        margin: 10px 0;
+        -webkit-transition: all .25s ease;
+        -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+        -o-transition: all .25s ease;
+        transition: all .25s ease; }
+      .aboutus_hero .wrapper .social_icons a:hover {
+        opacity: 0.7; }
+
+.aboutus_boxes .boxes h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51px;
+  color: #A31E22;
+  max-width: 595px; }
+.aboutus_boxes .boxes p {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.56);
+  max-width: 529px;
+  margin-top: 25px; }
+.aboutus_boxes .boxes .box {
+  padding-bottom: 83px;
+  padding-top: 83px; }
+.aboutus_boxes .boxes .desc {
+  padding-top: 27px;
+  padding-bottom: 34px;
+  position: relative;
+  max-width: 519px; }
+.aboutus_boxes .boxes .main_img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px; }
+.aboutus_boxes .boxes .icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -62px;
+  background: #A31E22;
+  border: 10px solid #FFFFFF;
+  width: 124px;
+  height: 124px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%; }
+  .aboutus_boxes .boxes .icon img {
+    display: block; }
+.aboutus_boxes .boxes .custom_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+.aboutus_boxes .boxes .place_for_img {
+  position: relative;
+  max-width: calc(100% - 627px);
+  width: 100%; }
+.aboutus_boxes .boxes .box:nth-child(2n) {
+  background: #F4F4F4; }
+  .aboutus_boxes .boxes .box:nth-child(2n) .desc {
+    order: 2; }
+  .aboutus_boxes .boxes .box:nth-child(2n) .place_for_img {
+    order: 1; }
+    .aboutus_boxes .boxes .box:nth-child(2n) .place_for_img .icon {
+      left: unset;
+      right: -62px; }
+
 /*# sourceMappingURL=style.css.map */

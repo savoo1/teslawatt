@@ -116,6 +116,38 @@
 	.blog_post_page .blog_posts .post_inside .cont p{
 		font-size: 15px;
 	}
+	.aboutus_boxes .boxes .desc{
+		max-width: calc(50% - 10px)
+	}
+	.aboutus_boxes .boxes .place_for_img {
+	    position: relative;
+	    max-width: calc(50% - 60px);
+	    width: 100%;
+	}
+	.aboutus_boxes .boxes h2{
+		font-size: 32px;
+		line-height: 130%;
+	}
+	.aboutus_boxes .boxes p{
+		margin-top: 15px;
+		font-size: 17px;
+		line-height: 140%;
+	}
+	.aboutus_boxes .boxes .icon{
+		width: 100px;
+		height: 100px;
+		left: -50px;
+		img{
+			max-width: 50%;
+			max-height: 50%;
+		}
+	}
+	.aboutus_boxes .boxes .desc{
+		padding: 0;
+	}
+	.aboutus_boxes .boxes .box:nth-child(2n) .place_for_img .icon{
+		right: -50px;
+	}
 }
 
 @media(max-width: 1000px){
@@ -376,19 +408,19 @@
 
 
 
-	.hosting_hero .wrapper .social_icons, .contact_hero .wrapper .social_icons{
+	.hosting_hero .wrapper .social_icons, .contact_hero .wrapper .social_icons, .aboutus_hero .wrapper .social_icons {
 		display: none;
 	}
-	.hosting_hero, .contact_hero{
+	.hosting_hero, .contact_hero,.aboutus_hero{
 		padding-top: 150px;
 		padding-bottom: 150px;
 		min-height: unset;
 	}
-	.hosting_hero h1, .contact_hero h1{
+	.hosting_hero h1, .contact_hero h1, .aboutus_hero h1{
 		font-size: 50px;
 		line-height: 64px;
 	}
-	.hosting_hero .btn_type1, .contact_hero .btn_type1{
+	.hosting_hero .btn_type1, .contact_hero .btn_type1, .aboutus_hero .btn_type1{
 		margin-top: 40px;
 	}
 	.hosting_services{
@@ -560,6 +592,47 @@
 	}
 	.blog_post_page .blog_posts .post:first-child .post_inside{
 		padding-bottom: 0;
+	}
+	.aboutus_boxes .boxes .custom_row{
+		flex-wrap: wrap;	
+	}
+	.aboutus_boxes .boxes .box{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.aboutus_boxes .boxes .desc{
+		width: 100%;
+		max-width: 100%;
+		order: 2;
+	}
+	.aboutus_boxes .boxes .place_for_img{
+		max-width: 100%;
+		order: 1;
+		margin-bottom: 70px;
+		img{
+			height: 400px;
+			object-fit: cover;
+		}
+	}
+	.aboutus_boxes .boxes .icon, .aboutus_boxes .boxes .box:nth-child(2n) .place_for_img .icon{
+		right: 0;
+		left: 0;
+		margin: auto;
+		top: unset;
+		transform: unset;
+		bottom: -50px;
+	}
+	.aboutus_boxes .boxes h2{
+		max-width: 100%;
+		text-align: center;
+		font-size: 40px;
+		line-height: 51px;
+	}
+	.aboutus_boxes .boxes p{
+		max-width: 100%;
+		text-align: center;
+		font-size: 18px;
+		line-height: 30px;
 	}
 }
 
@@ -760,11 +833,11 @@
 	.hosting_steps_to_start .steps{
 		display: block;
 	}
-	.hosting_hero, .contact_hero{
+	.hosting_hero, .contact_hero, .aboutus_hero{
 		padding-top: 80px;
 		padding-bottom: 80px;
 	}
-	.hosting_hero h1, .contact_hero h1{
+	.hosting_hero h1, .contact_hero h1, .aboutus_hero h1{
 		font-size: 40px;
 		line-height: 51px;
 	}
@@ -773,7 +846,7 @@
 		font-size: 30px;
 		line-height: 40px;
 	}
-	.hosting_hero .btn_type1, .contact_hero .btn_type1{
+	.hosting_hero .btn_type1, .contact_hero .btn_type1, .aboutus_hero .btn_type1{
 		margin-top: 20px;
 	}
 	.hosting_services .custom_rows .custom_col{
@@ -1005,7 +1078,7 @@
 	.contact_sec2{
 		padding-top: 22px;
 	}
-	.contact_hero{
+	.contact_hero, .aboutus_hero{
 		padding-top: 55px;
 		padding-bottom: 50px;
 	}
@@ -1023,6 +1096,24 @@
 	}
 	.contact_sec2 .max_box form .custom_row .custom_col{
 		width: 100%;
+	}
+
+
+	.aboutus_boxes .boxes .place_for_img img{
+		height: 240px;
+	}
+	.aboutus_boxes .boxes .place_for_img{
+		margin-bottom: 60px;
+	}
+	.aboutus_boxes .boxes h2{
+		font-size: 30px;
+		line-height: 130%;
+	}
+	.aboutus_boxes .boxes p{
+		font-size: 18px;
+		line-height: 140%;
+		margin-top: 10px;
+		font-weight: 400;
 	}
 }
 
@@ -1179,7 +1270,7 @@
 	.hosting_map_slider .slick-next{
 		right: 15px;
 	}
-	.hosting_hero h1, .contact_hero h1 {
+	.hosting_hero h1, .contact_hero h1, .aboutus_hero h1 {
 	    font-size: 30px;
 	    line-height: 41px;
 	}
@@ -1197,6 +1288,12 @@
 		.step{
 			margin-bottom: 15px;
 		}
+	}
+	.aboutus_boxes .boxes h2{
+		font-size: 27px;
+	}
+	.aboutus_boxes .boxes p{
+		font-size: 16px;
 	}
 }
 
