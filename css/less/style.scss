@@ -1902,6 +1902,9 @@ footer{
 					height: 427px;
 					width: 690px;
 				}
+				.full_img{
+					width: 100%;
+				}
 				.cont{
 					width: calc(100% - 706px);
 					padding: 24px 23px;
@@ -1955,6 +1958,33 @@ footer{
 	.btn_type1{
 		text-align: center;
 		margin-top: -5px;
+	}
+
+	.desc{
+		h2{
+			font-family: 'Montserrat', sans-serif;
+			font-style: normal;
+			font-weight: 700;
+			font-size: 40px;
+			line-height: 51px;
+			color: #A31E22;
+			max-width: 100%;
+		}
+		p{
+			font-family: 'Montserrat', sans-serif;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 30px;
+			color: rgba(0, 0, 0, 0.56);
+			max-width: 100%;
+			margin-top: 25px;
+		}
+		img{
+			margin-top: 30px;
+			margin-bottom: 30px;
+			display: block;
+		}
 	}
 }
 // blog_post_page end

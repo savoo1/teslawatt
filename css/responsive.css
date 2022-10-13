@@ -731,6 +731,13 @@
     font-size: 30px;
     line-height: 32px; }
 
+  .blog_post_page .desc h2 {
+    font-size: 28px;
+    line-height: 140%; }
+
+  .blog_post_page .desc {
+    padding-top: 50px; }
+
   .contact_us form {
     margin-top: 30px; }
 
