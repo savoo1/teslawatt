@@ -1292,11 +1292,23 @@ footer {
           line-height: 30px;
           color: #1E1E25; }
 
+.active_option.firmware_hero_sec3 {
+  padding-top: 46px !important;
+  padding-bottom: 21px !important; }
+
 .firmware_hero_sec3 {
   background: #A31E22;
   padding-top: 46px;
   padding-bottom: 21px;
-  overflow: hidden; }
+  overflow: hidden;
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease; }
   .firmware_hero_sec3 .custom_row {
     display: flex;
     justify-content: space-between; }

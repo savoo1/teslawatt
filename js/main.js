@@ -30,6 +30,17 @@ $(".faq_card .question").click(function (e) {
     }
 });
 
+if ($(".active_option.firmware_hero_sec3")[0]){
+  var active_option2_height = $(".active_option.firmware_hero_sec3").find(".wrapper").height() + 100;
+  $(".active_option.firmware_hero_sec3").css("max-height", active_option2_height + "px")
+}
+$( window ).resize(function() {
+  if ($(".active_option.firmware_hero_sec3")[0]){
+    var active_option2_height = $(".active_option.firmware_hero_sec3").find(".wrapper").height() + 100;
+    $(".active_option.firmware_hero_sec3").css("max-height", active_option2_height + "px")
+  }
+});
+
 $(".hosting_faq .custom_row h2").click(function (e) {
     e.preventDefault();
 
@@ -40,12 +51,14 @@ $(".hosting_faq .custom_row h2").click(function (e) {
   
     $(".active_option").css("max-height", "0px")
     $(".active_option").removeClass("active_option");
-    
 
     setTimeout(function() { 
             var height_of_option = $(getoption).find(".inside_option").height() + 500 ;
             $(getoption).css("max-height", height_of_option + "px")
             $(getoption).addClass("active_option");
+
+            var active_option2_height = $(".active_option.firmware_hero_sec3").find(".wrapper").height() + 100;
+            $(".active_option.firmware_hero_sec3").css("max-height", active_option2_height + "px")
         }, 250);
 });
 
